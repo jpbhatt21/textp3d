@@ -1,5 +1,32 @@
-#HeadlineWrapper{
-    background-image: url('https://raw.githubusercontent.com/jpbhatt21/textp3d/refs/heads/main/gb/banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+.prt {
+	font-family: "Protest Revolution", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+#HeadlineWrapper {
+	background-image: url("https://raw.githubusercontent.com/jpbhatt21/textp3d/refs/heads/main/gb/banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-position: top;
+}
+#PageTitle {
+	max-width: fit-content;
+	backdrop-filter: blur(2px);
+	padding-inline: 20px;
+	border-radius: 6px;
+	color: #cdb896;
+	font-family: "Protest Revolution", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+#BodyWrapper {
+	backdrop-filter: blur(10px);
+	background: #0c0a0955;
+}
+body {
+    background: url("https://raw.githubusercontent.com/jpbhatt21/textp3d/refs/heads/main/gb/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
