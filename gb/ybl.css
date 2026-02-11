@@ -67,7 +67,7 @@ body {
     background: #0c0a0955;
 }
 #SiteLogo > :last-child {
-  content: url("new-image.jpg");
+  content: url("https://raw.githubusercontent.com/jpbhatt21/textp3d/refs/heads/main/gb/siteLogoTsp.png");
 }
 svg:has(#NsfwPreview) {
 	display: none;
